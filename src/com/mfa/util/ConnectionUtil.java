@@ -10,7 +10,7 @@ public static Connection connectdb()
 try
 {
 Class.forName("com.mysql.jdbc.Driver");
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/swingapp","root","");
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/mfa-java","root","");
 return conn;
 }
 catch(Exception e)
